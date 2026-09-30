@@ -12,4 +12,4 @@ res = requests.post(url, json=body, timeout=15)
 print(f"body: {res.text}")   # important: shows exact Pixela error reason
 res.raise_for_status()
 data = res.json()
-print(data)
+print(data) 
