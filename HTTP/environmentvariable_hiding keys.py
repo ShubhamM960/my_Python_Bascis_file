@@ -15,4 +15,9 @@ print(res.json())
 
 #============================  TERMINAL  =========================
 # >>> export API_KEY = wfwfwfwlf854784894efjgw
-#Click Enter - now this value will be save in the environment, use it in the code as " os.environ.get("API_KEY") ""
+#.     OR
+# create  '.env' file inside same PROJECT FOLDER and store all the possible sesnstive informations, secret_keys    (    must include this .env file insid .gitignore - which will ignore the files to get deployed to GITHUB )
+        # e.g. : OPEN_API_KEY = "FWHFO89890949049JENJWEF"     PINECONE_KEY = "34398FFKDWFWKFLW"
+#Click Enter - now this value will be save in the environment, use it in the python code as :
+#                                   " os.environ.get("API_KEY") "
+#                                    " os.environ.get("OPEN_API_KEY") "
