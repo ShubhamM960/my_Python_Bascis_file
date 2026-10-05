@@ -3,7 +3,8 @@
 # It acts as a "sandbox", ensuring that dependencies installed for one project do not interfere with the global Python installation
 
 # 3 steps : Create, ACtivate, Install, Verify
-    #Create : python -m venv projectA_env  |   python -m venv projectB_env   ==> it will create a folder with 'projectA_env' or 'projectB_env'
+            using git move into the directory as "cd <folder name>"
+        #Create : python -m venv projectA_env  |   python -m venv projectB_env   ==> it will create a folder with 'projectA_env' or 'projectB_env'
     
     #Activate :   projectA_env\Scripts\activate (Windows)     |      source projectA_env\bin\activate (mac)
        #now the project 'projectA_env' actiavted --> open  project 'projectA_env'
